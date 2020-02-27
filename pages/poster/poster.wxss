@@ -1,0 +1,60 @@
+/* components/act-poster/act-poster.wxss */
+page {
+  height: 100%;
+}
+.poster-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  overflow: hidden;
+}
+
+.f-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.poster-canvas {
+  width: 588rpx;
+  height: 1028rpx;
+  background: #fff;
+  margin-top: 12rpx;
+  overflow: hidden;
+}
+
+.show-box {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  z-index: 100;
+}
+.img-box {
+  width: 100%;
+  height: 1028rpx;
+  margin-bottom: 40rpx;
+}
+.show-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.btn-item {
+  width: 702rpx;
+  height: 100rpx;
+  border-radius: 20rpx;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 100rpx;
+  background: #EF3359;
+  font-size: 32rpx;
+  color: #fff;
+  font-weight: bold;
+}

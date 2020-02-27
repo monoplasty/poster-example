@@ -1,0 +1,14 @@
+<!--components/act-poster/act-poster.wxml-->
+<view class="poster-box">
+	<view class="canvas-box f-center" id="canvas-container">
+		<canvas style="{{canvasStyle}}" class="poster-canvas" canvas-id="myCanvas" />
+	</view>
+	<cover-view class="show-box">
+		<cover-view class="img-box">
+			<cover-image style="{{imgStyle}}" wx:if="{{resultImg}}" class="show-img" src="{{resultImg}}" mode="aspectFit" />
+		</cover-view>
+		<cover-view class="btn-item" bindtap="save">保存到相册
+		</cover-view>
+	</cover-view>
+</view>
+
